@@ -7,10 +7,9 @@ namespace Thunderous
     class Jeff
     {
         private static int _experience = 16;
+        private string[] _tableNames = new string[4982];
         public bool IsDad = true;
         public bool LikesLongWeekends = true;
-        private string[] _tableNames = new string[4982];
-
 
         public void RemoveObstacles(object obstacle)
         {
@@ -21,6 +20,7 @@ namespace Thunderous
             else
             {
                 // this block should never be accessed
+                // but do the same thing just in case
                 obstacle = typeof (IDisposable);
             }
         }

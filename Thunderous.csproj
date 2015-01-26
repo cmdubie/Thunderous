@@ -43,6 +43,7 @@
     <Compile Include="Jeff.cs" />
     <Compile Include="Jenalee.cs" />
     <Compile Include="Mike.cs" />
+    <Compile Include="Nnabike.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Samer.cs" />
     <Compile Include="Taylor.cs" />

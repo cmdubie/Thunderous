@@ -5,6 +5,7 @@ namespace Thunderous
 {
     class Jenalee
     {
+        public bool SpectrumExpert = true;
         public bool HasCoolHaircut = true;
         private bool _hasJeffsMouse = true;
         private bool _hasGLORPSticker = false;

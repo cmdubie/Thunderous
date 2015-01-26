@@ -1,23 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Thunderous
+﻿namespace Thunderous
 {
     class Mike
     {
-        public bool HasTwoCellPhones = true;
         public bool IsVBGuy = true;
-
-        public string SwapMilitaryStories(string story)
-        {
-            if (story == "good")
-            {
-                return "When I was in the military. . .";
-            }
-        }
+        public bool HasTwoCellPhones = true;
 
         public string DocumentPhoenix()
         {
@@ -28,8 +14,21 @@ namespace Thunderous
         {
             WalkToPhoenixLab();
             TakeBreak();
-            AttemptToStopSweating();
-            DeviseIngeniusVBSolution();
+            ContinueWalkingToPhoenixLab();
+            AttemptToControlHeatInPhoenixLab();
+            DeviseIngeniusVBSolution() || SendCorrectFilesToStore();
+        }
+        
+        public string SwapAgeSpecificStories(string story)
+        {
+            if (story == "military")
+            {
+                return "When I was in the military. . .";
+            }
+            if (story == "childhood")
+            {
+                return "Life as a kid in the 70's and 80's was great. . .";
+            }
         }
     }
 }
